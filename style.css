@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+    max-width: 100vw;
+    font-family: poppins;
+
+}
+
+.container, .container-2{
+    max-width: 100vw;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+}
+
+.navbar{
+    width: 100%;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options{
+    max-width: 100vw;
+    margin-top: 20px;
+    float: right;
+    word-spacing: 10px;
+    padding-right: 30px;
+    flex-wrap: nowrap;
+}
+
+.concert{   
+   height: 60vw;
+   max-width: 100vw;
+   background-image: url(imgs/landing.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.concert > h1, .p_concert{
+    color: white;
+    text-align: center;
+}
+
+
+.container-2 > h1{
+    text-align: center;
+}
+
+.container-2 > .underline{
+    width: 100px;
+    height: 30px;
+    background-color: #1ab26b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.underline{
+    width: 100px;
+    height: 10px;
+    background-color: #1ab26b;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+.orden{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.title{
+    color: #1ab26b;
+}
+.million{
+    width: 200px;
+    height: 200px;
+    grid-area: million;
+    border: 5px solid yellow;
+}
+.hd{
+    width: 200px;
+    height: 200px;
+    grid-area: hd;
+    border: 5px solid yellow;
+}
+.stream{
+    width: 200px;
+    height: 200px;
+    grid-area: stream;
+    border: 5px solid yellow;
+}
+.million img{
+    height: 15vh;
+}
+.hd img{
+    height: 15vh;
+}
+.stream img{
+    height: 15vh;
+}
+
+.features > h1  p{
+    color: black;
+    text-align: center;
+}
